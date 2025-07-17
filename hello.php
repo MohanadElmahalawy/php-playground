@@ -16,4 +16,10 @@ echo $ayhaga . "\n";
 // (Non-primitive)
 $ayhaga_arr = array("honda", "toyota", "mazda");
 echo "array: " . $ayhaga_arr[1] . "\n";
+
+//3(Constants)
+define("consta","hellooooo");
+define("cons_name", "Hello, World!");
+echo "constant: ", cons_name . "\n";
+echo "constant: ", consta . "\n";
 ?>
