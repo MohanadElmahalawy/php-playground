@@ -22,4 +22,11 @@ define("consta","hellooooo");
 define("cons_name", "Hello, World!");
 echo "constant: ", cons_name . "\n";
 echo "constant: ", consta . "\n";
+
+//4(Arthimatic Operators)
+$sandwich = 10;
+$burger = 5;
+$pepsi = 2;
+$total = $sandwich + $burger + $pepsi;
+echo "Total: ", $total . "\n";
 ?>
