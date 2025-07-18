@@ -29,4 +29,20 @@ $burger = 5;
 $pepsi = 2;
 $total = $sandwich + $burger + $pepsi;
 echo "Total: ", $total . "\n";
+
+//5(IF-ELSE STATEMENT)
+$grade=70;
+if ($grade>=70){
+    echo "passed with A+ GRADE";
+}
+else if($grade>=50){
+    echo "passed with B GRADE";
+}
+else if($grade>=40){
+    echo "passed with C GRADE";
+}
+else{
+    echo "failed";
+}
+
 ?>
